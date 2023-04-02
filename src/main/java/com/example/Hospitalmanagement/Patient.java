@@ -1,9 +1,13 @@
 package com.example.Hospitalmanagement;
 
 public class Patient {
+
     private int patientId;
+
     private String name;
+
     private String disease;
+
     private int age;
 
     public Patient(int patientId, String name, String disease, int age) {
